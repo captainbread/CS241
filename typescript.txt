@@ -1,0 +1,142 @@
+Script started on Fri Oct 28 13:42:17 2016
+[?1034hbash-3.2$ javac *.java
+bash-3.2$ java driver 
+
+
+
+
+
+put J again: 42
+
+size: 6
+containsKey(A): true
+containsKey(B): false
+get(X): 7
+get(P): 5
+get(Z): null
+remove(A): null
+
+remove(B): null
+
+remove(J): null
+
+size: 4
+
+key list: 
+ACJKMPX
+bash-3.2$ java ShoppingCart items.txt orders.txt
+Item Cereal indexed for $5
+Item Book indexed for $15
+Item TV indexed for $400
+Item Milk indexed for $4
+Item Shirt indexed for $30
+Item Shoes indexed for $70
+Item Camera indexed for $300
+Item Video indexed for $20
+Item Dress indexed for $100
+Item Saucepan indexed for $50
+Item Headphones indexed for $70
+Item Toothpaste indexed for $5
+Item Shampoo indexed for $8
+Item Detergent indexed for $10
+Item Laptop indexed for $500
+Item Printer indexed for $60
+Item Jeans indexed for $50
+Item Guitar indexed for $280
+Item Sofa indexed for $900
+Item Vespa indexed for $1100
+New cart for: Tom
+Shampoo added to cart
+Detergent added to Tom cart
+Tom cart :
+Item: Shampoo Price: $8
+Item: Detergent Price: $10
+Toothpaste added to Tom cart
+New cart for: Sally
+Book added to cart
+Laptop added to Sally cart
+Printer added to Sally cart
+Sally cart :
+Item: Book Price: $15
+Item: Laptop Price: $500
+Item: Printer Price: $60
+New cart for: Harry
+Headphones added to cart
+Ben doesn't have a cart yet
+New cart for: Valerie
+Dress added to cart
+Jeans added to Sally cart
+New cart for: Jim
+Cereal added to cart
+Milk added to Jim cart
+Shoes added to Sally cart
+Shirt added to Jim cart
+Jim cart :
+Item: Cereal Price: $5
+Item: Milk Price: $4
+Item: Shirt Price: $30
+Jim checkout
+================
+Cereal for: $5
+Milk for: $4
+Shirt for: $30
+Total price: $39
+================
+New cart for: Ben
+Video added to cart
+Guitar added to Ben cart
+Sally already has Book in cart
+Detergent added to Sally cart
+Sally cart :
+Item: Book Price: $15
+Item: Laptop Price: $500
+Item: Printer Price: $60
+Item: Jeans Price: $50
+Item: Shoes Price: $70
+Item: Detergent Price: $10
+Sally checkout
+================
+Book for: $15
+Laptop for: $500
+Printer for: $60
+Jeans for: $50
+Shoes for: $70
+Detergent for: $10
+Total price: $705
+================
+Vespa added to Tom cart
+Tom cart :
+Item: Shampoo Price: $8
+Item: Detergent Price: $10
+Item: Toothpaste Price: $5
+Item: Vespa Price: $1100
+Tom checkout
+================
+Shampoo for: $8
+Detergent for: $10
+Toothpaste for: $5
+Vespa for: $1100
+Total price: $1123
+================
+New cart for: Gloria
+Sofa added to cart
+Jeans added to Gloria cart
+Gloria checkout
+================
+Sofa for: $900
+Jeans for: $50
+Total price: $950
+================
+Ben cart :
+Item: Video Price: $20
+Item: Guitar Price: $280
+Ben checkout
+================
+Video for: $20
+Guitar for: $280
+Total price: $300
+================
+bash-3.2$ exit
+exit
+
+Script done on Fri Oct 28 13:42:50 2016
